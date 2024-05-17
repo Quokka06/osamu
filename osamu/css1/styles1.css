@@ -1,0 +1,27 @@
+#videos {
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+#videos > div {
+	padding: 10px;
+	text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+h1 {
+	height: 80px;
+	color: white;
+	background-color: rgb(7, 38, 95);
+	padding: 10px 100px;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
